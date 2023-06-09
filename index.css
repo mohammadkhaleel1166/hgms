@@ -1,0 +1,110 @@
+.nav{
+   
+    height: 60px;
+    display: flex;
+    padding: 20px 36px;
+    justify-content: center;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.nav--logo{
+    
+    height: 50px;
+    width: 40px;
+    
+    margin-top: 5px;
+   
+}
+#h1 {
+    margin-left: 30px;
+    align-self: center;
+}
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .nav {
+      padding: 20px 10px;
+    }
+
+    #h1 {
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .nav {
+      padding: 10px 5px;
+    }
+
+    .nav--logo {
+      height: 40px;
+      width: 30px;
+      margin-top: 10px;
+    }
+
+    #h1 {
+      font-size: 14px;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:whitesmoke;
+    
+  }
+
+  .container {
+   
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .container h2 {
+    text-align: center;
+  }
+
+  .input-group {
+    margin-bottom: 15px;
+  }
+
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  #b1{
+    margin-left: 170px;
+  }
+
+  .input-group button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .input-group button:hover {
+    background-color: #45a049;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }

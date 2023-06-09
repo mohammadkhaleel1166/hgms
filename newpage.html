@@ -1,0 +1,23 @@
+<!-- newpage.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Your HTML head content -->
+</head>
+<body>
+  <h1>Welcome to the new page!</h1>
+  <div>
+    Email: <span id="email"></span>
+  </div>
+
+  <!-- Your JavaScript code -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
+  <script>
+    // Retrieve the email from sessionStorage
+    var email = sessionStorage.getItem('email');
+
+    // Display the email in the HTML element
+    document.getElementById('email').textContent = email;
+  </script>
+</body>
+</html>
